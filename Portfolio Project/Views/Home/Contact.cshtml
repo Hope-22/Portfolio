@@ -1,0 +1,46 @@
+﻿
+@model Contact
+
+@{
+
+    ViewData["Title"] = "Contact";
+}
+@*<h1>@ViewData["Title"]</h1>*@
+
+    <div style="width: 100%; height: 200px; background-color: #30694B; margin-bottom: 20px">
+        <h1 class="px-5"style="color: white; padding-top: 40px; margin-left:78px">Get In Touch</h1>
+        <p class="px-5" style="color: #FFD700; margin-left:78px">Email : onofehope107@gmail.com</p>
+        <p class="px-5" style="color: #FFD700; margin-left:78px">Phone Number : +234 7068563859</p>
+    </div>
+    <div style="width: 100%; height: 500px; background-color: lightgray; display: flex; justify-content: space-around">
+        <h1 class="px-5"style="color: white; margin-top: 200px">Send A Message</h1>
+       <form method="post" asp-controller="Home" asp-action="Contact" style="padding-top: 10px" >
+  <div class="form-group" style="width: 400px;">
+    <label for="exampleFormControlInput1">Name</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First name and Last Name">
+  </div>
+  <div class="form-group" style="width: 400px">
+    <label for="exampleFormControlInput1">Email</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group" style="width: 400px"> 
+    <label for="exampleFormControlInput1">Phone number</label>
+    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+234 7087987599">
+  </div>
+  <div class="form-group" style="width: 400px">
+    <label for="exampleFormControlInput1">Subject</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject of Mail">
+  </div>
+  <div class="form-group" style="width: 400px">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+    <input type="submit" class="text-center" placeholder="Send Message" >
+  </div>
+</form>
+    </div>
+</div>
+@*<p>For much information about me, you can send a mail to  onofehope107@gmail.com.</p>*@
+
+
+

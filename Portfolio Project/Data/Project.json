@@ -1,0 +1,30 @@
+﻿{
+  "Id": 1,
+
+  "PictureTitle": "../images/LinkedList.png",
+
+  "Description": "This Project was aimed at evaluating my understanding of data organization structuring.",
+
+  "ProjectLink": "https://github.com/decadevs/week--2--task-Hope-22"
+},
+
+{
+  "Id": 2,
+
+  "PictureTitle": "../images/LinkedList.png ",
+
+  "Description": "This project was aimed at evaluating my understanding and implementation of OOP rules",
+
+  "ProjectLink": "https://github.com/decadevs/week-3-task-Hope-22"
+},
+
+{
+  "Id": 3,
+
+  "PictureTitle": "../images/LinkedList.png ",
+
+  "Description": "This project is aimed at evaluating my understanding and implementation of MVC ",
+
+  "ProjectLink": "https://github.com/decadevs/week-5-task-Hope-22"
+},
+
